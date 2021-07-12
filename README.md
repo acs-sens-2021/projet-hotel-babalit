@@ -1,2 +1,2 @@
-# projet-h-tel-babalit
+# projet-hôtel-babalit
 projet hôtel
