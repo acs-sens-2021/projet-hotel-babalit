@@ -6,41 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bab@lit</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <img id="logo" src="images/logo.svg" alt="logo" width="100 ">
-    <img id="burger" src="images/burger" alt="burger" width="20 ">
-
     <header>
+        <img id="logo" src="images/logo.svg" alt="logo" width="100 ">
+        <img id="burger" src="images/burger" alt="burger" width="20 ">
 
     </header>
-    <section>
-        <img id="nuit" src="images/nuit.jpg" alt="logo" width="100%">
-        <h2>les offres de vos sites de réservation préférés, en un seul endroit. </h2>
+    <section id="nuit">
+        <img  src="images/nuit.jpg" alt="logo" width="100%">
+            <p id="text1">Les offres de vos sites de réservation préférés, en un seul endroit.</p>
     </section>
-    <section>
-
-    </section>
-    <section class="dealform__query-wrapper" ref="">
+    <form class="formulaire">
+    <section class="one"><class="dealform__query-wrapper" ref="">
         <label class="visuallyhidden" for="querytext"></label>
         <div class="searchquery-icon-container icon-magnifier"> </div>
         <input id="querytext" class="js-query input querytext" type="search" role="combobox" aria-autocomplete="both"
             aria-owns="ssg-suggestion" autocomplete="off" autocapitalize="none" placeholder="saisir un nom de ville"
             name="sQuery" itemprop="query">
     </section>
-    <section>
-        <article>
-            <label for="start"> date d'arrivée:</label>
+    <section class="two">
+            <label  for="start"> date d'arrivée:</label>
             <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
-        </article>
-    </section>
-    <section>
         <label for="end"> date de départ:</label>
         <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
     </section>
-    <section>
+    <section class="three">
         <label for="pet-select">nombre d'adultes</label>
         <select name="pets" id="pet-select">
             <option value="0">0</option>
@@ -51,8 +44,6 @@
             <option value="5">5</option>
             <option value="6">6</option>
         </select>
-    </section>
-    <section>
         <label for="pet-select">nombre d'enfants</label>
         <select name="pets" id="pet-select">
             <option value="0">0</option>
@@ -63,8 +54,6 @@
             <option value="5">5</option>
             <option value="6">6</option>
         </select>
-    </section>
-    <section>
         <label for="pet-select">nombre de lits</label>
         <select name="pets" id="pet-select">
             <option value="0">0</option>
@@ -76,13 +65,15 @@
             <option value="6">6</option>
         </select>
     </section>
-    <section>
+    <section class="four">
         <label for="site-search">
             <!-- <input type="search" id="site-search" name="q" aria-label="Search through site content"> -->
-
+        
             <button>Recherche</button>
-            <img id="hotel2" src="images/hotel2.jpg" alt="logo" width="100% ">
+            
     </section>
+</form>
+<img id="hotel2" src="images/hotel2.jpg" alt="logo" width="100% ">
     <section>
         <h1>Nos hôtels disponibles</h1>
 
