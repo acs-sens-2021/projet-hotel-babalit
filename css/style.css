@@ -1,0 +1,29 @@
+:root {
+    font-size: 1.4rem;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#nuit {
+    position: relative
+}
+
+#text1 {
+    position: absolute;
+    color: aliceblue;
+    font-family: cursive;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 60%;
+
+
+}
+.one,.two,.three .four{
+    display: flex;
+    justify-content: center;
+}
