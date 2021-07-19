@@ -1,5 +1,13 @@
 :root {
-    font-size: 1.4rem;
+    font-size: 20px;
+}
+
+body {
+    margin: 0;
+}
+
+img {
+    vertical-align: middle;
 }
 
 header {
@@ -9,7 +17,11 @@ header {
 }
 
 #nuit {
-    position: relative
+    position: relative;
+    box-shadow: 0px 5px 2px black;
+
+
+
 }
 
 #text1 {
@@ -22,8 +34,62 @@ header {
     width: 60%;
 
 
+
 }
-.one,.two,.three .four{
+
+.one,
+.two,
+.three,
+.four {
     display: flex;
     justify-content: center;
+    background-color: rgba(128, 128, 128, 0.193);
+    height: 50px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+}
+
+.four {
+    background-color: blue;
+}
+
+h1 {
+    text-align: center;
+    font-family: "roboto";
+    color: blue
+}
+
+h2 {
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.hotel {
+    position: relative;
+    display: flex;
+    transform: translateX(35%);
+    width: 50%;
+    padding: 5%;
+    box-shadow: 5px 5px 5px grey;
+}
+
+a {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 739px) and (orientation: landscape) {
+    :root {
+        font-size: 25px;
+    }
+
+    #text1 {
+        font-size: 40px;
+    }
+}
+@media screen and (min-width: 1024px) and (orientation: landscape) {
+    #text1 {
+        font-size: 100px;
+    }
 }

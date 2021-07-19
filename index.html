@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>bab@lit</title>
     <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -16,77 +19,77 @@
 
     </header>
     <section id="nuit">
-        <img  src="images/nuit.jpg" alt="logo" width="100%">
-            <p id="text1">Les offres de vos sites de réservation préférés, en un seul endroit.</p>
+        <img src="images/nuit.jpg" alt="logo" width="100%" >
+        <p id="text1">Les offres de vos sites de réservation préférés, en un seul endroit.</p>
     </section>
     <form class="formulaire">
-    <section class="one"><class="dealform__query-wrapper" ref="">
-        <label class="visuallyhidden" for="querytext"></label>
-        <div class="searchquery-icon-container icon-magnifier"> </div>
-        <input id="querytext" class="js-query input querytext" type="search" role="combobox" aria-autocomplete="both"
-            aria-owns="ssg-suggestion" autocomplete="off" autocapitalize="none" placeholder="saisir un nom de ville"
-            name="sQuery" itemprop="query">
-    </section>
-    <section class="two">
-            <label  for="start"> date d'arrivée:</label>
+        <section class="one">
+            <label class="visuallyhidden" for="querytext"></label>
+            <div class="searchquery-icon-container icon-magnifier"> </div>
+            <input id="querytext" class="js-query input querytext" type="search" role="combobox"
+                aria-autocomplete="both" aria-owns="ssg-suggestion" autocomplete="off" autocapitalize="none"
+                placeholder="saisir un nom de ville" name="sQuery" itemprop="query">
+        </section>
+        <section class="two">
+            <label for="start"> date d'arrivée:</label>
             <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
-        <label for="end"> date de départ:</label>
-        <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
-    </section>
-    <section class="three">
-        <label for="pet-select">nombre d'adultes</label>
-        <select name="pets" id="pet-select">
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-        </select>
-        <label for="pet-select">nombre d'enfants</label>
-        <select name="pets" id="pet-select">
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-        </select>
-        <label for="pet-select">nombre de lits</label>
-        <select name="pets" id="pet-select">
-            <option value="0">0</option>
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-        </select>
-    </section>
-    <section class="four">
-        <label for="site-search">
-            <!-- <input type="search" id="site-search" name="q" aria-label="Search through site content"> -->
-        
-            <button>Recherche</button>
+            <label for="end"> date de départ:</label>
+            <input type="date" id="start" name="trip-start" value="2018-07-22" min="2018-01-01" max="2018-12-31">
+        </section>
+        <section class="three">
+            <label for="pet-select">nombre d'adultes</label>
+            <select name="pets" id="pet-select">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+            <label for="pet-select">nombre d'enfants</label>
+            <select name="pets" id="pet-select">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+            <label for="pet-select">nombre de lits</label>
+            <select name="pets" id="pet-select">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+            </select>
+        </section>
+        <section class="four">
             
-    </section>
-</form>
-<img id="hotel2" src="images/hotel2.jpg" alt="logo" width="100% ">
+                
+                    <button id="bouton">Recherche</button>
+                
+        </section>
+    </form>
+    <img id="hotel2" src="images/hotel2.jpg" alt="logo" width="100% ">
     <section>
-        <h1>Nos hôtels disponibles</h1>
+        <h1>NOS HOTELS DISPONIBLES</h1>
 
-        <h2><a href="fiche-hotel.html">hôtel F1</a></h2>
-        <img id="f1" src="images/f1.jpg" alt="f1" width="200 ">
+        <h2><a href="fiche-hotel.html">Hôtel F1</a></h2>
+        <img class="hotel" src="images/f1.jpg" alt="f1" width="200 ">
         <h2><a href="Hôtel Class">Hôtel class</a></h2>
-        <img id="premiere" src="images/premiere.jpg" alt="hôtel premiere" width="200 ">
+        <img class="hotel" src="images/premiere.jpg" alt="hôtel premiere" width="200 ">
         <h2><a href="Hôtel Orange">Hôtel orange</a></h2>
-        <img id="hotel3" src="images/hotel3.jpg" alt="hotel3" width="200 ">
+        <img class="hotel" src="images/hotel3.jpg" alt="hotel3" width="200 ">
         <h2><a href="Hôtel Luxe">Hôtel Luxe</a></h2>
-        <img id="hotel4" src="images/hotel4.jpg" alt="hotel4" width="200 ">
-        <h2>Ajouter un hôtel <a href="liste-hotel.html">ici</a></h2>
+        <img class="hotel" src="images/hotel4.jpg" alt="hotel4" width="200 ">
     </section>
+    <h2>Ajouter un hôtel : <a href="liste-hotel.html">cliquer ici</a></h2>
+
     <footer>
         <img id="copy" src="images/copy" alt="copy" width="100% ">
     </footer>
