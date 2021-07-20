@@ -4,7 +4,7 @@
 
 body {
     margin: 0;
-    background-color: rgb(239, 244, 248);
+    background-color: rgb(252, 253, 253);
 }
 
 img {
@@ -280,7 +280,7 @@ p {
     text-align: center;
 }
 .three, .two{
-font-size: 0.8rem;
+font-size: 1.1rem;
 }
 
 @media screen and (min-width: 739px) and (orientation: landscape) {
