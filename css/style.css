@@ -11,10 +11,10 @@ img {
 }
 
 header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
+    /* display: flex; */
+ justify-content: space-between;
+    align-items: center; 
+} 
 
 #nuit {
     position: relative;
@@ -51,20 +51,21 @@ header {
 }
 
 .four {
-    background-color: blue;
+    background-color: rgb(201, 228, 247);
 }
 
 h1 {
     text-align: center;
     font-family: "roboto";
-    color: blue;
-    background-color: rgba(128, 128, 128, 0.275);
+    color: rgb(20, 56, 109)
 }
 
 h2 {
     text-align: center;
 
 }
+
+a{text-decoration: none;}
 
 .hotel {
     position: relative;
