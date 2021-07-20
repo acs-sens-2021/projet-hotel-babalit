@@ -13,9 +13,9 @@ img {
 
 header {
     /* display: flex; */
- justify-content: space-between;
-    align-items: center; 
-} 
+    justify-content: space-between;
+    align-items: center;
+}
 
 #nuit {
     position: relative;
@@ -66,7 +66,9 @@ h2 {
 
 }
 
-a{text-decoration: none;}
+a {
+    text-decoration: none;
+}
 
 .hotel {
     position: relative;
@@ -279,8 +281,10 @@ a {
 p {
     text-align: center;
 }
-.three, .two{
-font-size: 0.8rem;
+
+.three,
+.two {
+    font-size: 0.8rem;
 }
 
 @media screen and (min-width: 739px) and (orientation: landscape) {
