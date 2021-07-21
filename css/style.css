@@ -127,6 +127,9 @@ a {
     color: white;
 
 }
+.nav-link{
+    font-size:0.8rem ;
+}
 
 
 
@@ -278,9 +281,13 @@ a {
     transform: translate(-50%, -50%);
     font-size: 10px;
 }
+#gerant{
+    font-size: 0.5rem;
+}
 
 p {
     text-align: center;
+    font-size: 1.2rem;
 }
 
 .three,
